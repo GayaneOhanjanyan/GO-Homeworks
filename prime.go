@@ -8,7 +8,7 @@ import (
 func main() {
 	var num int
 	fmt.Println("Program checks if it is prime number or not")
-	fmt.Println("Input Number")
+	fmt.Println("Input number")
 	n, err := fmt.Scan(&num)
 	if n < 1 {
 		fmt.Println("There is smt wrong with input, ", err)
