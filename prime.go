@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var num int
-	fmt.Println("Process checks if it is prime number or not")
+	fmt.Println("Program checks if it is prime number or not")
 	fmt.Println("Input Number")
 	n, err := fmt.Scan(&num)
 	if n < 1 {
