@@ -18,6 +18,10 @@ func main() {
 		fmt.Println("There is smt wrong with input, natural number is needed")
 		return
 	}
+	if num == 1 {
+		fmt.Println(num, "is not prime number")
+		return
+	}
 	num1 := float64(num)
 	root := math.Sqrt(num1)
 	root1 := int(root)
